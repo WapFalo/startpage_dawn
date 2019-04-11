@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="https://github.com/0-l">
+        <link rel="stylesheet" type="text/css" href="css/awoo.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200|Roboto:100,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>~</title>
+</head>
+<body>
+    <div id="search">
+        <div>
+            <input type="text" spellcheck="false" placeholder="search">
+            <button class="close"><i class="material-icons">&#xE5CD;</i></button>
+            <ul class="search-engines"></ul>
+        </div>
+    </div>
+    <div id="links" class="-">
+        <div id="tabs" class="!-">
+            <cols>
+                <ul class="- indicator">
+                    <li active></li>
+                </ul>
+                <div class="+ widgets col-end">
+                    <p class="time">00<span>:00</span></p>
+                    <div class="!+ + weather-config">
+                        <input name="color" type="text" placeholder="location">
+                    </div>
+                    <div class="+ weather">
+                        <button class="!+ edit">edit</button>
+                        <p temperature>4ºC</p>
+                        <p weather class="+">
+                            <i class="material-icons" sunny>wb_sunny</i>
+                        </p>
+                    </div>
+                </div>
+            </cols>
+        </div>
+        <div id="panels">
+            <ul class="boards" active>
+                <div class="links">
+                    <li>
+                        <h1>Social</h1>
+                        <a href="https://twitter.com/?lang=fr">twitter</a>
+                        <a href="http://www.4chan.org/">4chan</a>
+                        <a href="https://www.reddit.com/">reddit</a>
+                        <a href="https://www.youtube.com/?hl=fr&gl=FR">youtube</a>
+                    </li>
+                    <li>
+                        <h1>Nerdy</h1>
+                        <a href="https://myanimelist.net/">mal</a>
+                        <a href="https://comicpunch.net/">comics</a>
+                        <a href="http://stairwaytovf.blogspot.com/">scans</a>
+                        <a href="http://boards.4channel.org/wsg/">/wsg/</a>
+                        <a href="http://boards.4chan.org/wg/">/wg/</a>
+                    </li>
+                    <li>
+                        <h1>Games</h1>
+                        <a href="https://www.twitch.tv/">twitch</a>
+                        <a href="https://www.instant-gaming.com/fr/?igr=lamegaforge">IG</a>
+                        <a href="https://www.hltv.org/">hltv</a>
+                        <a href="http://boards.4channel.org/v/">/v/</a>
+                        <a href="https://www.reddit.com/r/Rainbow6/">r/R6</a>
+                        <a href="https://www.reddit.com/r/GlobalOffensive/">r/GO</a>
+                    </li>
+                </div>
+            </ul>
+            <ul class="music">
+                <div class="links">
+                    <li><a href="https://soundcloud.com/">soundcloud</a></li>
+                    <li><a href="https://spotify.me/fr">spotify.me</a></li>
+                    <li><a href="https://www.youtube.com/playlist?list=PLWkU8icf0O6j6yHI9Ps_l7NdMU-lvwDjo">la bonne ambiance</a></li>
+                </div>
+            </ul>
+            <ul class="tech">
+                <div class="links">
+                    <li><a href="https://github.com/">github</a></li>
+                    <li><a href="https://cas.u-bordeaux.fr/cas/login?service=https://ent.u-bordeaux.fr/uPortal/Login">UB</a></li>
+                    <li><a href="https://www.orange.fr/portail">mail orange</a></li>
+                    <li><a href="https://www.codecademy.com/fr/learn">codecademy</a></li>
+                    <li><a href="https://www.reddit.com/r/Rainmeter/">r/rainmeter</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="|" id="todo">
+        <button class="+ add"><img src="img/add.png"></button>
+        <div class="+ addTodo">
+            <input type="text" value="" placeholder="todo" spellcheck="false">
+        </div>
+        <rows class="items">
+            <h1 class="+">todo</h1>
+        </rows>
+    </div>
+    <script type="text/javascript" src="js/strftime.js"></script>
+    <script type="text/javascript" src="js/todo.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
+    <script type="text/javascript" src="js/powerline.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+</body>
+</html>
